@@ -1,11 +1,3 @@
-# CODTECH-TASK1
-
-**NAME : MOHAMMED SOHEL PASHA** <br>
-**COMPANY : CODTECH IT SLOUTIONS** <br>
-**ID : CT08EHX** <br>
-**DOMAIN : DEVOPS** <br>
-**DURATION : DEC - JAN 2025**
-
 # AWS Dynamic EC2 Template
 
 ## Overview
@@ -48,7 +40,7 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 1. **Clone the Repository**
    ```bash
-   git clone ([Click here](https://github.com/sohelmohammed0/CODTECH-TASK1.git))
+   git clone https://github.com/sohelmohammed0/CODTECH-TASK1.git
    cd CODTECH-TASK1
    ```
 
@@ -69,8 +61,9 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 5. **Apply the Configuration**
    ```bash
-   terraform apply -var-file=terrafrom.tfvars -auto-aprove
+   terraform apply
    ```
+   - Type `yes` to confirm the creation of resources.
 
 6. **Access the Instance**
    - Copy the SSH command from the Terraform output to access the instance.
@@ -105,4 +98,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 For any questions or support, please reach out to [your-email@example.com].
-

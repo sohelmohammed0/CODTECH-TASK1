@@ -58,6 +58,8 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
    ```bash
    terraform init
    ```
+   Initializes the working directory by downloading the necessary provider plugins and preparing the environment.
+![Terraform Init Output](images/init.png "Terraform Init Command Output")
 
 4. **Plan the Deployment**
    ```bash

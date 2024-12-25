@@ -48,23 +48,13 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/sohelmohammed0/CODTECH-TASK1.git
+   git clone ([Click here](https://github.com/sohelmohammed0/CODTECH-TASK1.git))
    cd CODTECH-TASK1
    ```
 
 2. **Configure Inputs**
    - Edit the `variables.tf` file to define default values for the required variables.
-   - Create a `terraform.tfvars` file and populate it with your desired configuration. Example:
-     ```hcl
-     instance_type = "t2.micro"
-     ami_id = "ami-12345678"
-     key_name = "my-ssh-key"
-     security_group_ids = ["sg-abcdefg"]
-     subnet_id = "subnet-12345"
-     tags = {
-       Name = "MyEC2Instance"
-     }
-     ```
+   - Create a `terraform.tfvars` file and populate it with your desired configuration.
 
 3. **Initialize Terraform**
    ```bash
@@ -79,9 +69,8 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 5. **Apply the Configuration**
    ```bash
-   terraform apply
+   terraform apply -var-file=terrafrom.tfvars -auto-aprove
    ```
-   - Type `yes` to confirm the creation of resources.
 
 6. **Access the Instance**
    - Copy the SSH command from the Terraform output to access the instance.

@@ -67,7 +67,7 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 5. **Apply the Configuration**
    ```bash
-   terraform apply -var-file=terraform.tfvars
+   terraform apply -var-file=terraform.tfvars -auto-approve
    ```
    
 6. **Access the Instance**

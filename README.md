@@ -1,5 +1,11 @@
 # AWS Dynamic EC2 Template
 
+**NAME : MOHAMMED SOHEL PASHA** <br>
+**COMPANY : CODTECH IT SLOUTIONS** <br>
+**ID : CT08EHX** <br>
+**DOMAIN : DEVOPS** <br>
+**DURATION : DEC - JAN 2025**
+
 ## Overview
 The **AWS Dynamic EC2 Template** is designed to simplify the process of creating and managing EC2 instances on AWS using Terraform. This template allows users to dynamically configure EC2 instances by passing customizable parameters through a `.tfvars` file, ensuring flexibility and reusability across various use cases. The output includes essential details such as an SSH command for easy access to the instance, public IPs, and more.
 
@@ -97,4 +103,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ---
 
 ## Contact
-For any questions or support, please reach out to [your-email@example.com].
+For any questions or support, please reach out to [sohel879879@example.com].

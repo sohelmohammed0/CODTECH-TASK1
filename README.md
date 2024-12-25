@@ -67,10 +67,9 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
 
 5. **Apply the Configuration**
    ```bash
-   terraform apply
+   terraform apply -var-file=terraform.tfvars
    ```
-   - Type `yes` to confirm the creation of resources.
-
+   
 6. **Access the Instance**
    - Copy the SSH command from the Terraform output to access the instance.
 

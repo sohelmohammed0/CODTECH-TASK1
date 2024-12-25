@@ -65,21 +65,29 @@ This project is ideal for DevOps professionals, cloud engineers, and developers 
    ```bash
    terraform plan
    ```
+Creates an execution plan showing the actions Terraform will take.
+![Terraform Plan Output](images/plan.png "Terraform Plan Command Output")
+
    - Review the output to verify the resources to be created.
 
 5. **Apply the Configuration**
    ```bash
    terraform apply -var-file=terraform.tfvars -auto-approve
    ```
+   Applies the changes to create or modify infrastructure as per the configuration.
+![Terraform Apply Output](images/apply.png "Terraform Apply Command Output")
    
 6. **Access the Instance**
    - Copy the SSH command from the Terraform output to access the instance.
+![Terraform SSH command](images/ssh.png "Terraform SSH command Output for easy access")
 
 7. **Clean Up**
    - To destroy all created resources:
      ```bash
      terraform destroy
      ```
+Displays useful outputs from the configuration, such as public IP addresses or SSH commands.
+![Terraform Destroy Output](images/outputs.png "Terraform Destroy Command Output")
 
 ---
 
